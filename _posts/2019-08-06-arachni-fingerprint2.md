@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'arachni指纹识别优化（一）'
-categories:arachni
+categories: arachni
 tags: ruby arachni linux
 author: thorleishen
 ---
