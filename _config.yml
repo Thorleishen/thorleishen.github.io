@@ -20,7 +20,7 @@ github_username:  thorleishen
 email: 907602907@QQ.com
 weibo_username: psy丶雷雨
 zhihu_username: psy丶雷雨
-linkedIn_username: leishenyu
+linkedIn_username: leizhenyu
 dribbble_username:
 
 description_footer: 来自雷振宇的个人专栏！
@@ -28,7 +28,7 @@ description_footer: 来自雷振宇的个人专栏！
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: lzyblog
+duoshuo_shortname: #lzyblog
 disqus_shortname: #gaohaoyang
 
 # statistic analysis 统计代码
