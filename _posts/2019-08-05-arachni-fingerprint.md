@@ -2,7 +2,7 @@
 layout: post
 title: 'arachni指纹识别'
 categories: arachni
-categories: ruby arachni linux
+tags: ruby arachni linux
 author: thorleishen
 ---
 
