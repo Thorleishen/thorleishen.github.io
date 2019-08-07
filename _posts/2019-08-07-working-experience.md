@@ -6,7 +6,8 @@ tags: 生活 study
 author: thorleishen
 ---
 
-[TOC]
+* content
+{:toc}
 
 
 
