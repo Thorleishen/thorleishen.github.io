@@ -8,9 +8,6 @@ author: thorleishen
 
 * content
 {:toc}
-
-
-
 ## 前言
 
 每周三培训体会：闲着无聊，不知道该写什么，对今天培训内容总结
