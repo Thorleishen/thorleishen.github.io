@@ -37,7 +37,7 @@ ln -s /usr/lib/aarxxxx...xxx/libsqlite3.so.0.8.8 /usr/lib/libsqlite3.so.0 # 实�
 
 再次执行就OK了😁
 
-
+![](http://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=%E4%BA%BA%E7%94%9F%E8%8B%A6%E7%9F%AD%E6%88%91%E5%AD%A6python%E5%9B%BE%E7%89%87&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=2446760857,2193084771&os=3840281711,2372601824&simid=0,0&pn=3&rn=1&di=120450&ln=840&fr=&fmq=1565278934107_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&hs=2&objurl=http%3A%2F%2Fimg.qqzhi.com%2Fupload%2Fimg_4_2581062134D2458765830_23.jpg&rpstart=0&rpnum=0&adpicid=0&force=undefined)
 
 ## 问题二
 
@@ -57,7 +57,7 @@ cp /usr/lib/libruby.so* /usr/lib/bin
 
 再次执行gem list，出现安装的依赖包说明问题已经解决
 
-![](D:\Downloads\4bb43ae1272f7aa1b04e905196ebe33a.jpg)
+![]()
 
 ## 学习
 
