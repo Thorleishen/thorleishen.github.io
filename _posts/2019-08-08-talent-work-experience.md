@@ -37,7 +37,7 @@ ln -s /usr/lib/aarxxxx...xxx/libsqlite3.so.0.8.8 /usr/lib/libsqlite3.so.0 # 实�
 
 再次执行就OK了😁
 
-![](https://github.com/Thorleishen/thorleishen.github.io/tree/master/images/2019-08-08-img1.jpg)
+![](https://github.com/Thorleishen/thorleishen.github.io/blob/master/images/2019-08-08-img1.jpg)
 
 ## 问题二
 
