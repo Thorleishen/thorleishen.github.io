@@ -48,7 +48,7 @@ end
 # 通过上述代码可见，检测一个漏洞插件中是否含有指纹，通过判断漏洞插件中info信息函数中含有platforms参数
 ```
 
-![皮皮虾](../images/2019-08-08-img1.jpg)
+![皮皮虾](https://github.com/Thorleishen/thorleishen.github.io/raw/master/images/2019-08-08-img1.jpg)
 
 2. 进入run_checks中check_page审计页面时
 
