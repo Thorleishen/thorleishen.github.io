@@ -76,7 +76,7 @@ end
 # check.supports_platforms?( ps )判断该漏洞插件是否支持指纹识别插件识别出来的指纹，具体实现可以通过debug边调边查看
 ```
 
-![皮皮狗](https://github.com/Thorleishen/thorleishen.github.io/raw/master/images/2019-08-15-img1.jpg)
+![皮皮狗](https://raw.githubusercontent.com/Thorleishen/thorleishen.github.io/master/images/2019-08-15-img1.png)
 
 并且指定指纹会影响识别出的指纹，指纹识别打印消息在/lib/arachni/framework/audit.rb：audit_page，审计页面的时候打印
 
