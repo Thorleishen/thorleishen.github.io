@@ -136,7 +136,7 @@ end
 # 则check.supports_platforms?( ps )，有值返回true，即执行插件；反之，不支持该指纹识别，会return false，不会执行插件
 ```
 
-![皮皮怪](https://raw.githubusercontent.com/Thorleishen/thorleishen.github.io/master/images/2019-08-16-img1.png)
+![皮皮怪](https://raw.githubusercontent.com/Thorleishen/thorleishen.github.io/master/images/2019-08-16-img1.jpg)
 
 ## 总结
 
