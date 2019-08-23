@@ -186,9 +186,9 @@ function show_times(){
             newcounter.set("time", 0);
             newcounter.save();
             elements[i].textContent = 0;
-            continue;
+        }else{
+            elements[i].textContent = result.get("time");
         }
-        elements[i].textContent = result.get("time");
     });
 }
 
