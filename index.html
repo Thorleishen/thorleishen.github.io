@@ -22,7 +22,7 @@ layout: default
                         {% endif %}
                     </div>
                     <div class="label-card">
-                        <p><i class="fa fa-eye fa-x"></i><span id="{{ post.url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}"> 0 </span></p>
+                        <p><i class="fa fa-eye fa-x"></i><span id="{{ post.url | prepend: site.baseurl }}" class="leancloud_visitors" data-flag-title="{{ post.title }}"> 0 </span></p>
                     </div>
                     <div class="label-card">
                         {% if page.meta %}<i class="fa fa-key"></i>{{ page.meta }}  {% endif %}
@@ -178,8 +178,9 @@ function show_times(){
     query.equalTo('url', elements[i].id);
     query.first().then(function (result){
         if(result.length == 0){
+            var title = elements[i].getAttribute('data-flag-title');
+            var url = elements[i].id;
             var newcounter = new Counter();
-            newcounter.setACL(acl);
             newcounter.set("title", title);
             newcounter.set("url", url);
             newcounter.set("time", 0);
@@ -195,7 +196,7 @@ show_times()
 
 function click_url(){
     var query = new AV.Query("Counter");
-    query.equalTo('url', self.id);
+    query.equalTo('url', self.getAttribute("href"));
     query.first().then(function (result){
         result.increment('time', 1);
     });
