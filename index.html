@@ -177,7 +177,7 @@ function show_times(){
     // 若某span的内容不包括 '-' ，则不必创建记录
     query.equalTo('url', elements[i].id);
     query.first().then(function (result){
-        if(result.length == 0){
+        if(typeof(result) == 'undefined'){
             var title = elements[i].getAttribute('data-flag-title');
             var url = elements[i].id;
             var newcounter = new Counter();
