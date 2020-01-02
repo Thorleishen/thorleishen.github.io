@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ''c/c++学习第一天'
+title: 'c/c++学习第一天'
 categories: c/c++
 tags: c/c++ linux
 author: thorleishen
