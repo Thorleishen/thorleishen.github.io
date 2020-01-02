@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'c/c++学习第一天'
+title: ''c/c++学习第一天'
 categories: c/c++
 tags: c/c++ linux
 author: thorleishen
 ---
 
-[TOC]
+* content
+{:toc}
 ## 背景
 
 一心从事c/c++方向的第一天学习

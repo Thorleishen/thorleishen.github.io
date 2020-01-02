@@ -6,7 +6,8 @@ tags: c/c++ linux
 author: thorleishen
 ---
 
-[TOC]
+* content
+{:toc}
 ## 学习路线
 c语言的数据类型之基本数据类型
 
