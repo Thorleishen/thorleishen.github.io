@@ -8,6 +8,12 @@ author: thorleishen
 
 * content
 {:toc}
+## 前言
+
+数据库备份和数据迁移
+
+
+
 ## 学习路线
 
 数据库备份
@@ -29,7 +35,7 @@ author: thorleishen
 
 
 
-## 问题一
+### 问题一
 
 问题：当前用户的存储空间有限，导致直接全量备份服务器容量不足
 
@@ -45,7 +51,7 @@ gunzip < name.sql.gz | mysql -uroot -p dbname
 
 
 
-## 问题二
+### 问题二
 
 问题：通过scp命令ssh远程上传文件需要输入密码问题
 
@@ -79,7 +85,7 @@ EOF
 
 
 
-## 问题三
+### 问题三
 
 问题：解决xshell关闭终端窗口，程序被杀死的问题
 
