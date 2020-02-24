@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'mysql'
+title: 'mysql查看数据库大小'
 categories: mysql
 tags: mysql linux
 author: thorleishen
