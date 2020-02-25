@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'mysql和sqlite批量插入多条数据'
-categories: 数据库
+categories: mysql
 tags: mysql sqlite linux work
 author: thorleishen
 ---
