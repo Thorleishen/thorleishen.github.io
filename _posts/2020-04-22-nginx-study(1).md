@@ -25,7 +25,7 @@ author: thorleishen
 
 - 跨域请求流程
 
-  ```json
+  ```
   1. 浏览器进行跨域请求，首次会发送options预检请求询问服务端是否可以进行跨域，如果服务端未设置options允许跨域请求，则请求API会报跨域
   
   2. options请求成功后，再次请求该API
@@ -33,7 +33,7 @@ author: thorleishen
 
 - 跨域问题解决办法（nginx服务器设置）
 
-  ```json
+  ```
   # nginx 服务器配置设置
   1. 设置options预检允许跨域
   if ($request_method = 'OPTIONS') {
@@ -69,7 +69,7 @@ author: thorleishen
 
 - cookie跨域解释
 
-  ```json
+  ```
   定义：cookie跨域主要和域名domain有关，如果前端和服务端域名不一样就会出现cookie跨域问题
   
   分类：1. 不同域名cookie跨域问题，例如：1.abc.com、2.def.com；2.不同子域名之间的跨域问题，例如1.abc.com、2.abc.com
@@ -77,7 +77,7 @@ author: thorleishen
 
 - cookie跨域问题解决办法
 
-  ```json
+  ```
   注：在做cookie跨域问题时，前端需要显示的允许cookie跨域传递，即前端需设置xhrFields: {
                       withCredentials: true
                   },
