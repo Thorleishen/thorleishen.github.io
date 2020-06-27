@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Nginx'
+title: 'Nginx简单配置'
 categories: nginx
 tags: nginx linux
 author: thorleishen
